@@ -1,5 +1,5 @@
-# Getting Started with Create React App
-
+# React Tic Tac Toe Game
+A simple Tic Tac Toe game built using React.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -39,32 +39,47 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Description
 
-### Code Splitting
+This project is a classic Tic Tac Toe game implemented using React, demonstrating basic React concepts and state management.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Features
 
-### Analyzing the Bundle Size
+- Play Tic Tac Toe against another player.
+- Indicates when a player has won the game.
+- Option to reset the game.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Getting Started
 
-### Making a Progressive Web App
+### Prerequisites
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Node.js installed on your machine.
 
-### Advanced Configuration
+### Installation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+1. Clone this repository to your local machine.
+2. Navigate to the project directory in your terminal.
+3. Run `npm install` to install dependencies.
+4. Run `npm start` to start the development server.
+5. Open your browser and go to `http://localhost:3000` to play the game.
 
-### Deployment
+## Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- Click on any empty square to make your move.
+- The game will alternate between 'X' and 'O'.
+- The first player to get three of their marks in a row (horizontally, vertically, or diagonally) wins the game.
+- Click the "Reset" button to start a new game.
 
-### `npm run build` fails to minify
+## Folder Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- `src/` contains the React components, CSS styles, and game logic.
+
+## Contributing
+
+Contributions are welcome! Feel free to open issues or pull requests.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
