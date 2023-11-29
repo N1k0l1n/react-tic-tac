@@ -78,14 +78,14 @@ else if(data[2] === data[4] && data[4]=== data[6] && data[6] !== ""){
   }
 
   //Reset Game
-  const reset = () => {
-    setLock(false)
-    let data = ["","","","","","","","",""];
-    titleRef.current.innerHTML  = 'Tic Tac Toe In <span>React<span/>'
-    box_array.map((e) =>{
-      e.current.innerHTML = "";
-    })
-  }
+ const reset = () => {
+  setLock(false);
+  data = ["", "", "", "", "", "", "", "", ""]; // Modified line, removed 'let'
+  titleRef.current.innerHTML = 'Tic Tac Toe In <span>React<span/>';
+  box_array.forEach((e) => {
+    e.current.innerHTML = "";
+  });
+};
 
 
   return (
